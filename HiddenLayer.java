@@ -13,6 +13,7 @@ class HiddenLayer extends Layer {
 	} // HiddeLayer()
 
 	/**
+	* Инициализация "скрытых" слоёв.
 	*
 	* Initializes the hidden layer(s)
 	* with pseudo random real numbers.
@@ -28,11 +29,14 @@ class HiddenLayer extends Layer {
 		ArrayList<HiddenLayer> listOfHiddenLayer, 
 		InputLayer inputLayer, 
 		OutputLayer outputLayer) {
+			
+			// TO-DO
 
 	} // initLayer()
 
 	/**
-	* Print the hidden weights of the layer. 
+	* Обобразить значения весов для скрытого слоя.
+	* Print the hidden weights of the layer.
 	*
 	* @param hiddenlayer
 	*/
