@@ -1,7 +1,6 @@
 /**
-*
-*
-*
+* Входной слой нейронной сети.
+* Input layer of neural network.
 *
 */
 class InputLayer extends Layer {
